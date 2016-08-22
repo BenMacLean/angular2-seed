@@ -1,6 +1,7 @@
 
 
 import {Component} from 'angular2/core'
+import {CourseService} from './course.service'
 
 @Component({
     selector: 'courses',
@@ -12,11 +13,15 @@ import {Component} from 'angular2/core'
             {{ course }}
         </li>
       </ul>
-      `
+      `,
+    providers: [CourseService]
 
 })
 export class CoursesComponent {
     title: string = "The title of courses page";
     courses;
 
+    counstructor(courseService: CourseService){
+      this.courses = courseService.getCourse()
+    }
 }
