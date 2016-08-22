@@ -1,1 +1,1 @@
-{"version":3,"file":"courses.components.js","sourceRoot":"","sources":["courses.components.ts"],"names":[],"mappings":";;;;;;;YACA;gBAAA;gBAEA,CAAC;gBAAD,uBAAC;YAAD,CAAC,AAFD,IAEC;YAFD,+CAEC,CAAA"}
+{"version":3,"file":"courses.components.js","sourceRoot":"","sources":["courses.components.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;YAQA;gBAAA;gBAEA,CAAC;gBAND;oBAAC,gBAAS,CAAC;wBACP,QAAQ,EAAE,SAAS;wBACnB,QAAQ,EAAE,kBAAkB;qBAC/B,CAAC;;oCAAA;gBAGF,uBAAC;YAAD,CAAC,AAFD,IAEC;YAFD,+CAEC,CAAA"}
